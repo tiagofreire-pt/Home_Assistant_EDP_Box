@@ -1,0 +1,19 @@
+## EDP ENERGY BOX
+sensor.voltage_l1:
+  icon: 'mdi:transmission-tower'
+  friendly_name: 'Tensão'
+sensor.current_l1:
+  icon: 'mdi:power-socket'
+  friendly_name: 'Corrente'
+sensor.power_factor:
+  icon: 'mdi:percent'
+  friendly_name: 'Fator de potência'
+sensor.frequency:
+  icon: 'mdi:current-ac'
+  friendly_name: 'Frequência'
+sensor.tariff:
+  icon: 'mdi:counter'
+  friendly_name: 'Tarifa'
+sensor.switch_control_state:
+  icon: 'mdi:power'
+  friendly_name: 'DCP'
