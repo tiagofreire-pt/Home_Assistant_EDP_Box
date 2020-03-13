@@ -69,6 +69,7 @@ sensor:
     scan_interval: 5
     registers:
       - name: 'Tariff'
+        ## 1 para Vazio - 2 para Ponta - 3 para Cheia
         hub: energy_box_1
         slave: 1
         register: 11
