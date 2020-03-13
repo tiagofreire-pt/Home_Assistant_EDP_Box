@@ -1,0 +1,94 @@
+modbus:
+  name: energy_box_1
+  type: serial
+  method: rtu
+  port: /dev/ttyUSB0
+  baudrate: 9600
+  stopbits: 1
+  bytesize: 8
+  parity: N
+  timeout: 10
+
+sensor:
+  - platform: modbus
+    scan_interval: 2
+    registers:
+      - name: 'Frequency'
+        hub: energy_box_1
+        slave: 1
+        register: 127
+        register_type: input
+        unit_of_measurement: 'Hz'
+        count: 1
+        scale: 0.1
+        offset: 0
+        precision: 2
+        # long unsigned
+        data_type: uint
+        
+      - name: 'Voltage L1'
+        hub: energy_box_1
+        slave: 1
+        register: 108
+        register_type: input
+        unit_of_measurement: 'V'
+        count: 1
+        scale: 0.1
+        offset: 0
+        precision: 1
+        # long unsigned
+        data_type: uint
+
+      - name: 'Current L1'
+        hub: energy_box_1
+        slave: 1
+        register: 109
+        register_type: input
+        unit_of_measurement: 'A'
+        count: 1
+        scale: 0.1
+        offset: 0
+        precision: 1
+        # long unsigned
+        data_type: uint
+        
+      - name: 'Power factor'
+        hub: energy_box_1
+        slave: 1
+        register: 123
+        register_type: input
+        unit_of_measurement: 'p.u.'
+        count: 1
+        scale: 0.001
+        offset: 0
+        precision: 3
+        # long unsigned
+        data_type: uint
+
+  - platform: modbus
+    scan_interval: 5
+    registers:
+      - name: 'Tariff'
+        hub: energy_box_1
+        slave: 1
+        register: 11
+        register_type: input
+        count: 1
+        # conversão de 1/256
+        scale: 0.00390625
+        offset: 0
+        precision: 0
+        # unsigned
+        data_type: uint
+                
+      - name: 'Switch Control State'
+        ## 0 para disconectado - 1 para conectado - 2 para preparado a reconectar
+        hub: energy_box_1
+        slave: 1
+        register: 132
+        register_type: input
+        count: 1
+        # conversão de 1/256
+        scale: 0.00390625
+        offset: 0
+        data_type: uint
