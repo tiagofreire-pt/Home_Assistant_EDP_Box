@@ -11,6 +11,8 @@ Esta integração é possível, graças à porta de comunicação HAN que está 
 
 **`A porta de comunicação HAN está no interior das EDP Energy Box. A manipulação ou acesso não autorizado a esta porta é da total responsabilidade do próprio.`**
 
+É proposto neste repositório um procedimento para requisitar formalmente o acesso a esta porta.
+
 # Conteúdos
 
 1. [A Energy Box e a sua porta HAN](Energy%20Box/README.md)
