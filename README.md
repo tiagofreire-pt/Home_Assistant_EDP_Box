@@ -1,6 +1,8 @@
 # Âmbito
 
-A integração entre os contadores inteligentes da EDP Distribuição S.A., enquanto Operadora da Rede de Distribuição, com sistemas de domótica, permite potenciar automações, controlo e análises com base na informação disponível das grandezas elétricas. Nomeadamente, tensão, intensidade de corrente, potência ativa, fator de potência, frequência, estado do disjuntor controlador de potência, *et al*.
+A integração entre os contadores inteligentes com sistemas de domótica permite potenciar automações, controlo e análises com base na informação disponível das grandezas elétricas. Nomeadamente, tensão, intensidade de corrente, potência ativa, fator de potência, frequência, estado do disjuntor controlador de potência, *et al*.
+
+A EDP Distribuição S.A. surge neste contexto enquanto Operadora da Rede de Distribuição de baixa tensão.
 
 
 # Objetivo
