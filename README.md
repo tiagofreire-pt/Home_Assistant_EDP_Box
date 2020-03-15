@@ -16,7 +16,13 @@ Esta integração é possível, graças à porta de comunicação HAN que está 
 # Conteúdos
 
 1. [A Energy Box e a sua porta HAN](Energy%20Box/README.md)
+   1. Pedido de acesso
+   2. Interface físico
+   3. Impedância de linha
 2. [Home Assitant Core e a sua configuração](Home%20Assistant/README.md)
+   1. Ficheiro de configuração
+   2. Personalizar as entidades geradas
+   3. Aplicação das configurações
 
 # Requisitos mínimos
 
