@@ -24,7 +24,7 @@ Haverá uma provável deslocação de um técnico especializado à sua instalaç
 
 ## Interface físico
 
-Esta prova de conceito é baseada numa Energy Box da marca Janz, modelo C3801 (R4LRFGPRS), com a sua porta HAN ativada e disponível. Exemplo:
+Esta prova de conceito é baseada numa Energy Box da marca Janz, modelo C3801 (R4LRFGPRS), com a sua porta HAN ativada e disponível externamente. Exemplo:
 
 ![janz_c3801](./img/janz_c3801.png)
 > Fonte: edpdistribuicao.pt
