@@ -2,7 +2,7 @@
 
 A integração entre os contadores inteligentes com sistemas de domótica permite potenciar automações, controlo e análises com base na informação disponível das grandezas elétricas. Nomeadamente, tensão, intensidade de corrente, potência ativa, fator de potência, frequência, estado do disjuntor controlador de potência, *et al*.
 
-A EDP Distribuição S.A. surge neste contexto enquanto Operadora da Rede de Distribuição de baixa tensão.
+A EDP Distribuição S.A. surge neste contexto enquanto Operadora da Rede de Distribuição de baixa tensão. Independentemente do comercializador de energia elétrica com quem tem contrato de fornecimento e de estar em mercado regulado ou liberalizado.
 
 
 # Objetivo
@@ -32,7 +32,7 @@ Esta integração é possível, graças à porta de comunicação HAN que está 
 
 - Acesso exterior à porta HAN, previamente instalado pela EDP Distribuição S.A.;
 - Raspberry Pi 3 B+ ou superior (alternativamente, Home Assistant Core em PC, máquina física ou virtualizada em Proxmox);
-- Home Assistant Core instalado (versão de prova de conceito: 0.106.6);
+- Home Assistant Core instalado (versão de prova de conceito: 0.106.6. Recomendada a versão 0.109.6.);
 - Conversor USB - TTL vs RS-485;
 - Cabo extensor USB (recomendado);
 - Acessórios de ligação variados.
