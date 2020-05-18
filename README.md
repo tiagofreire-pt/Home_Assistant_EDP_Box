@@ -17,7 +17,7 @@ Esta integração é possível, graças à porta de comunicação HAN que está 
 
 # Conteúdos
 
-1. [A Energy Box e a sua porta HAN](Energy%20Box/README.md)
+1. [A EDP Box e a sua porta HAN](Energy%20Box/README.md)
    1. [Pedido de acesso](Energy%20Box/README.md#pedido-de-acesso)
    2. [Interface físico](Energy%20Box/README.md#interface-físico)
    3. [Impedância de linha](Energy%20Box/README.md#impedância-de-linha)
