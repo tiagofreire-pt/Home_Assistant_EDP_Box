@@ -2,6 +2,9 @@
 
 Dos pinos Nº 5 `(A+)` e Nº 3 `(B-)` existentes na porta HAN, deverão ser ligados os seus correspondentes no chicote, instalado pela EDP Distribuição S.A., aos respectivos terminais `A+` e `B-` do conversor TTL vs RS-485.
 
+![rs485_usb](./img/rs485_usb.jpg)
+> 
+
 Entre os terminais `A+` e `B-` do conversor TTL vs RS-485, deverá ser instalada em paralelo uma resistência de 120 Ohm. [Mais info aqui](../Energy%20Box#impedância-de-linha).
 
 A disponibilidade de alimentação a partir da porta HAN está limitada a uma intensidade de corrente máxima de 150 mA. **Recomenda-se não usar a porta HAN para alimentação de qualquer dispositivo.**
