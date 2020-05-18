@@ -7,7 +7,7 @@ A EDP Distribuição S.A. surge neste contexto enquanto Operadora da Rede de Dis
 
 # Objetivo
 
-Pretende-se partilhar uma prova de conceito da possível integração entre dispositivos EDP Energy Box marca Janz, modelo C3801, com um HUB de domótica a executar [Home Assistant Core](https://www.home-assistant.io/).
+Pretende-se partilhar uma prova de conceito da possível integração entre dispositivos EDP Box marca Janz, modelo C3801, com um HUB de domótica a executar [Home Assistant Core](https://www.home-assistant.io/).
 
 Esta integração é possível, graças à porta de comunicação HAN que está disponível internamente nos contadores inteligentes.
 
