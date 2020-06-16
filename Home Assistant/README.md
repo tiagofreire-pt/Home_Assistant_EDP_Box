@@ -2,7 +2,7 @@
 
 ## Ficheiro de configuração
 
-Deverá transpôr o conteúdo do ficheiro [configuration.yaml](./configuration.yaml) para o seu, na sua instalação de Home Assistante Core.
+Deverá transpôr o conteúdo do ficheiro [configuration.yaml](./configuration-direto.yaml) para o seu, na sua instalação de Home Assistante Core.
 
 Esta configuração permitirá obter as seguintes entidades de consumo e em valores instantâneos:
 
