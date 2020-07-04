@@ -49,6 +49,6 @@ Poderá utilizar outro software à sua livre discrição.
 # Mais info
 
 
-[Ligação física entre o contador inteligente, o ESP8266 e o hub com Home Assistant Core)](./LIGACOES_INDIRETO.md)
+[Ligação física entre o contador inteligente, o ESP8266 e o hub com Home Assistant Core](./LIGACOES_INDIRETO.md)
 
 [Voltar](../README.md)
