@@ -1,0 +1,35 @@
+sensor:
+  - platform: mqtt
+    name: "Contador - Tensão"
+    state_topic: "tele/edp_box/SENSOR"
+    value_template: '{{ value_json.EB.Voltage_P1|float }}'
+    unit_of_measurement: "V"
+    icon: mdi:flash
+
+  - platform: mqtt
+    name: "Contador - Corrente"
+    state_topic: "tele/edp_box/SENSOR"
+    value_template: '{{ value_json.EB.Current_P1|float }}'
+    unit_of_measurement: "A"
+    icon: mdi:power-socket
+ 
+  - platform: mqtt
+    name: "Contador - Fator de Potência"
+    state_topic: "tele/edp_box/SENSOR"
+    value_template: '{{ value_json.EB.PFactor_P1|float }}'
+    unit_of_measurement: "p.u."
+    icon: mdi:percent
+   
+  - platform: mqtt
+    name: "Contador - Frequência"
+    state_topic: "tele/edp_box/SENSOR"
+    value_template: '{{ value_json.EB.Frequency_P1|float }}'
+    unit_of_measurement: "Hz"
+    icon: mdi:current-ac
+   
+  - platform: mqtt
+    name: "Contador - Potência Ativa"
+    state_topic: "tele/edp_box/SENSOR"
+    value_template: '{{ value_json.EB.Power_P1|float }}'
+    unit_of_measurement: "W"
+    icon: mdi:transmission-tower
