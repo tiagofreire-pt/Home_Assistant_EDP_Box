@@ -66,6 +66,11 @@ A porta de comunicação HAN está no interior das EDP Box. A manipulação, dan
 
 Todas as marcas registadas, nomes de produtos ou de marcas, referidas neste documento, são propriedade registada do respectivo detentor.
 
+# Versionamento
+
+- 4 de Julho de 2020: segunda integração validada e publicada, através de MQTT e WIFI.
+- 13 de Março de 2020: primeira integração publicada e validada, através de USB.
+
 # A fazeres
 
 Método direto:
