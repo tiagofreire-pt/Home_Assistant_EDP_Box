@@ -32,6 +32,12 @@ Este script extrairá as seguintes grandesas elétricas do contador inteligente,
 
 Estas grandezas elétricas são pertencentes à fase 1 da instalação, a única em instalações monofásicas. Para instalações trifásicas ou com produção de energia, deverá consultar a documentação citada na página principal.
 
+Após submeter, deverá desligar e religar a alimentação do Wemos D1 mini. Após o início da firmware, deverá obter a seguinte visualização correta:
+
+![tasmota_edp_box](./img/tasmota_edp_box.png)
+>
+
+
 # Mais info
 
 [Ligação física entre o contador inteligente, o ESP8266 e o hub com Home Assistant Core)](./LIGACOES_INDIRETO.md)
