@@ -10,7 +10,7 @@ Entre os terminais `A+` e `B-` do conversor TTL vs RS-485, é recomendado ser in
 
 ## Mais info
 
-[Home Assitant Core e a sua configuração - Para método direto e indireto](../Home%20Assistant/README.md)
+[Home Assistant Core e a sua configuração - Para método direto e indireto](../Home%20Assistant/README.md)
 
 [Voltar](./README.md)
 
