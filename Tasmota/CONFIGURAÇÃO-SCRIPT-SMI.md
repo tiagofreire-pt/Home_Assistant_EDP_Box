@@ -34,6 +34,6 @@ Estas grandezas elétricas são pertencentes à fase 1 da instalação, a única
 
 # Mais info
 
-[Ligação física entre o contador inteligente, o ESP8266 e o hub com Home Assistant Core)](./LIGAÇÕES-INDIRETO.md)
+[Ligação física entre o contador inteligente, o ESP8266 e o hub com Home Assistant Core)](./LIGACOES_INDIRETO.md)
 
 [Voltar](./README.md)
