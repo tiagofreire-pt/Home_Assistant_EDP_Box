@@ -15,8 +15,8 @@ Existe a possibilidade de estender em dezenas de metros o chicote exterior, atra
 
 ## Mais info
 
-[Voltar](./README.md#método-direto)
+[Home Assitant Core e a sua configuração - Para método direto](./README.md#método-direto)
 
-[Como se comunica com a EDP Box](EDP%20Box/COMUNICACAO.md)
+[Voltar](../README.md)
 
 
