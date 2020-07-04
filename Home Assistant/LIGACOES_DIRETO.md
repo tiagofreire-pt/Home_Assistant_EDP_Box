@@ -17,6 +17,6 @@ Existe a possibilidade de estender em dezenas de metros o chicote exterior, atra
 
 [Voltar](./README.md)
 
-[Como se comunica com a EDP Box](Energy%20Box/COMUNICACAO.md)
+[Como se comunica com a EDP Box](EDP%20Box/COMUNICACAO.md)
 
 
