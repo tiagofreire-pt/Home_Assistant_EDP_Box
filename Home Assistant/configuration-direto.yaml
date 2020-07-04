@@ -11,7 +11,7 @@ modbus:
 
 sensor:
   - platform: modbus
-    scan_interval: 2
+    scan_interval: 5
     registers:
       - name: 'Frequency'
         hub: edp_box_1
@@ -66,7 +66,7 @@ sensor:
         data_type: uint
 
   - platform: modbus
-    scan_interval: 5
+    scan_interval: 10
     registers:
       - name: 'Tariff'
         ## 1 para Vazio - 2 para Ponta - 3 para Cheia
