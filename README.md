@@ -16,9 +16,6 @@ São propostas duas alternativas distintas possíveis para integração:
 1. Integração indireta com Home Assistant, usando um microcontrolador ESP8266 com firmware Tasmota, através de MQTT com Home Assistant Core.
 2. Integração direta com Home Assistant Core, com o seu componente nativo para protocolo MODBUS.
 
-**`A porta de comunicação HAN está no interior das EDP Box. A manipulação ou acesso não autorizado a esta porta é da total responsabilidade do próprio.`**
-
-
 # Conteúdos
 
 1. [A EDP Box e a sua porta HAN](EDP%20Box/README.md)
@@ -63,7 +60,9 @@ São propostas duas alternativas distintas possíveis para integração:
 
 [Novos Equipamentos](https://www.edpdistribuicao.pt/sites/edd/files/2019-04/Novos_Equipamentos.pdf?fbclid=IwAR3zNpBId8BMqrSVaPoekoUvqt-xxstLua4iqZN2qz-8Xf2hvRQqtU8g2xo)
 
-# Nota
+# Notas importantes
+
+A porta de comunicação HAN está no interior das EDP Box. A manipulação, danos, prejuízos ou acesso não autorizado a esta porta é da total responsabilidade do próprio.
 
 Todas as marcas registadas, nomes de produtos ou de marcas, referidas neste documento, são propriedade registada do respectivo detentor.
 
