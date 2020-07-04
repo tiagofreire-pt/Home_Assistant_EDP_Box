@@ -55,7 +55,5 @@ A linha de comunicação, representada pelo chicote exterior a instalar pela EDP
 
 [Voltar](../README.md)
 
-[Como se ligar à porta HAN](./LIGACOES.md)
-
 [Como se comunica com a EDP Box](./COMUNICACAO.md)
 
