@@ -48,6 +48,6 @@ Poderá utilizar outro software à sua livre discrição.
 
 # Mais info
 
-[Configuração do script para Smart Meter Interface (SMI)](./Configuração-script-smi.md)
+[Configuração do script para Smart Meter Interface (SMI)](./CONFIGURAÇÃO-SCRIPT-SMI.md)
 
-[Voltar](./README.md)
+[Voltar](../README.md)
