@@ -31,7 +31,7 @@ São propostas duas alternativas distintas possíveis para integração:
    2. [Configuração do script para Smart Meter Interface (SMI)](Tasmota/CONFIGURAÇÃO-SCRIPT-SMI.md)
    3. [Ligação física entre o contador inteligente, o ESP8266 e o hub com Home Assistant Core](Tasmota/LIGACOES_INDIRETO.md)
 3. [Home Assitant Core e a sua configuração - Para método direto e indireto](Home%20Assistant/README.md)
-   1. [Ligação física entre o contador inteligente e o hub com Home Assistant Core](Home%20Assistant/LIGAÇÕES-DIRETO.md)
+   1. [Ligação física entre o contador inteligente e o hub com Home Assistant Core](Home%20Assistant/LIGACOES_DIRETO.md)
    2. [Ficheiro de configuração](Home%20Assistant/README.md#configuração-do-home-assistant-core) 
    3. [Personalizar as entidades geradas - método direto](Home%20Assistant/README.md#personalizar-as-entidades-geradas) 
    4. [Aplicação das configurações](Home%20Assistant/README.md#aplicação-das-configurações) 
