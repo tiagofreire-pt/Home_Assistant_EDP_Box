@@ -1,4 +1,4 @@
-## EDP ENERGY BOX
+## EDP BOX
 sensor.voltage_l1:
   icon: 'mdi:transmission-tower'
   friendly_name: 'Tensão'
