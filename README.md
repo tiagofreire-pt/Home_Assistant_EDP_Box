@@ -63,6 +63,9 @@ São propostas duas alternativas distintas possíveis para integração:
 
 [Novos Equipamentos](https://www.edpdistribuicao.pt/sites/edd/files/2019-04/Novos_Equipamentos.pdf?fbclid=IwAR3zNpBId8BMqrSVaPoekoUvqt-xxstLua4iqZN2qz-8Xf2hvRQqtU8g2xo)
 
+# Nota
+
+Todas as marcas registadas, nomes de produtos ou de marcas, referidas neste documento, são propriedade registada do respectivo detentor.
 
 # A fazeres
 
