@@ -40,6 +40,7 @@ São propostas duas alternativas distintas possíveis para integração:
 - Acesso exterior à porta HAN, previamente instalado pela EDP Distribuição S.A.;
 - Raspberry Pi 3 B+ ou superior (alternativamente, Home Assistant Core em PC, máquina física ou virtualizada em Proxmox);
 - Home Assistant Core instalado (versão inicial de prova de conceito: 0.106.6. Recomendada a versão 0.109.7 ou superior.);
+- Mosquitto MQTT Broker instalado (versão 5.0 ou superior, como add-on oficial em Home Assistant Core. Ou qualquer outro broker MQTT à sua discrição);
 - Acessórios de ligação variados.
 ## Exclusivamente para o 1º método (indireto)
 - Conversor TTL vs RS-485 (por exemplo, "TTL to RS485 For Arduino")
