@@ -21,11 +21,11 @@ São propostas duas alternativas distintas possíveis para integração:
 
 # Conteúdos
 
-1. [A EDP Box e a sua porta HAN](Energy%20Box/README.md)
-   1. [Pedido de acesso](Energy%20Box/README.md#pedido-de-acesso)
-   2. [Interface físico](Energy%20Box/README.md#interface-físico)
-   3. [Impedância de linha](Energy%20Box/README.md#impedância-de-linha)
-   4. [Comunicação](Energy%20Box/COMUNICACAO.md)
+1. [A EDP Box e a sua porta HAN](EDP%20Box/README.md)
+   1. [Pedido de acesso](EDP%20Box/README.md#pedido-de-acesso)
+   2. [Interface físico](EDP%20Box/README.md#interface-físico)
+   3. [Impedância de linha](EDP%20Box/README.md#impedância-de-linha)
+   4. [Comunicação](EDP%20Box/COMUNICACAO.md)
 2. [Tasmota e script de configuração para MODBUS - Para método indireto](Tasmota/README.md)
    1. [Descarga e instalação do firmware no ESP8266](Tasmota/README.md)
    2. [Configuração do script para Smart Meter Interface (SMI)](Tasmota/CONFIGURAÇÃO-SCRIPT-SMI.md)
