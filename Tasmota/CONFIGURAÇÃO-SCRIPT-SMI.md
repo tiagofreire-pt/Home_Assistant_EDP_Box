@@ -40,6 +40,6 @@ Após submeter, deverá desligar e religar a alimentação do Wemos D1 mini. Ap�
 
 # Mais info
 
-[Ligação física entre o contador inteligente, o ESP8266 e o hub com Home Assistant Core)](./LIGACOES_INDIRETO.md)
+[Configuração do script para Smart Meter Interface (SMI)](./CONFIGURAÇÃO-SCRIPT-SMI.md)
 
 [Voltar](./README.md)
