@@ -1,5 +1,5 @@
 modbus:
-  name: energy_box_1
+  name: edp_box_1
   type: serial
   method: rtu
   port: /dev/ttyUSB0
@@ -14,7 +14,7 @@ sensor:
     scan_interval: 2
     registers:
       - name: 'Frequency'
-        hub: energy_box_1
+        hub: edp_box_1
         slave: 1
         register: 127
         register_type: input
@@ -27,7 +27,7 @@ sensor:
         data_type: uint
         
       - name: 'Voltage L1'
-        hub: energy_box_1
+        hub: edp_box_1
         slave: 1
         register: 108
         register_type: input
@@ -40,7 +40,7 @@ sensor:
         data_type: uint
 
       - name: 'Current L1'
-        hub: energy_box_1
+        hub: edp_box_1
         slave: 1
         register: 109
         register_type: input
@@ -53,7 +53,7 @@ sensor:
         data_type: uint
         
       - name: 'Power factor'
-        hub: energy_box_1
+        hub: edp_box_1
         slave: 1
         register: 123
         register_type: input
@@ -70,7 +70,7 @@ sensor:
     registers:
       - name: 'Tariff'
         ## 1 para Vazio - 2 para Ponta - 3 para Cheia
-        hub: energy_box_1
+        hub: edp_box_1
         slave: 1
         register: 11
         register_type: input
@@ -84,7 +84,7 @@ sensor:
                 
       - name: 'Switch Control State'
         ## 0 para disconectado - 1 para conectado - 2 para preparado a reconectar
-        hub: energy_box_1
+        hub: edp_box_1
         slave: 1
         register: 132
         register_type: input
