@@ -11,7 +11,7 @@ Deverá também acautelar a correta configuração do broker MQTT (IP, username,
 
 ## Mais info
 
-[Home Assistant Core e a sua configuração - Para método direto e indireto](../Home%20Assistant/README.md)
+[Configuração do script para Smart Meter Interface (SMI)](./CONFIGURAÇÃO-SCRIPT-SMI.md)
 
 [Voltar](./README.md)
 
