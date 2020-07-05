@@ -13,7 +13,7 @@ Esta integração é possível graças à porta de comunicação HAN que está d
 
 São propostas duas alternativas distintas possíveis para integração:
 
-1. Integração indireta com Home Assistant, usando um microcontrolador ESP8266 com firmware Tasmota, através de MQTT com Home Assistant Core.
+1. Integração indireta com Home Assistant, usando um microcontrolador ESP8266 com firmware Tasmota, através de MQTT.
 2. Integração direta com Home Assistant Core, com o seu componente nativo para protocolo MODBUS.
 
 # Conteúdos
