@@ -10,7 +10,7 @@ Este firmware é baseado no repositório do Tasmota, versão 8.3.1, preparado pa
 
 Poderá mais facilmente compilar o Tasmota usando [esta proposta de ambiente em docker](https://github.com/benzino77/tasmocompiler).
 
-No ponto 3 do TasmoCompiler, para garantir as funcionalidades mais utilizadas em Tasmota, deverá manter ativadas apenas as seguinte opções mínimas:
+No ponto 3 do TasmoCompiler, para garantir as funcionalidades mais utilizadas em Tasmota, deverá manter ativadas apenas as seguintes opções mínimas:
 
 * Amazon Alexa
 * Displays (I2C/SPI)
@@ -33,7 +33,7 @@ Deverá obrigatoriamente adicionar a configuração seguinte quando lhe o for so
 #ifdef USE_RULES
 #undef USE_RULES
 #endif
-#define SML_MAX_VARS 5
+#define SML_MAX_VARS 12
 ```
 
 Mais info, [aqui](https://tasmota.github.io/docs/Smart-Meter-Interface/).
