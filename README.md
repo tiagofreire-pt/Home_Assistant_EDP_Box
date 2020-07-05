@@ -79,8 +79,8 @@ Método direto:
 - [ ] Totalizadores de energia
 - [ ] Religação do DCP
 
-Método indireto:
-- [ ] Tarifa
-- [ ] Estado do DCP
-- [ ] Totalizadores de energia
+Método indireto (atualizado em 05/07/2020):
+- [X] Tarifa
+- [X] Estado do DCP
+- [X] Totalizadores de energia
 - [ ] Religação do DCP
