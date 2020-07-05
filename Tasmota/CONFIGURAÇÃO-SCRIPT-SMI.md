@@ -65,6 +65,6 @@ Após submeter, deverá desligar e religar a alimentação do Wemos D1 mini. Ap�
 
 # Mais info
 
-[Configuração do script para Smart Meter Interface (SMI)](./CONFIGURAÇÃO-SCRIPT-SMI.md)
+[Home Assistant Core e a sua configuração - Para método direto e indireto](../Home%20Assistant/README.md)
 
 [Voltar](./README.md)
