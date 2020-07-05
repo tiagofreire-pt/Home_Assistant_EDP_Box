@@ -31,9 +31,15 @@ entities:
   - entity: sensor.edp_box_potencia_ativa
   - entity: sensor.edp_box_fator_de_potencia
   - entity: sensor.edp_box_frequencia
+  - entity: sensor.edp_box_total_vazio
+  - entity: sensor.edp_box_total_ponta
+  - entity: sensor.edp_box_total_cheia
+  - entity: sensor.edp_box_tarifa
+  - entity: sensor.edp_box_estado_dcp
 show_header_toggle: false
-title: Contador
+title: EDP Energy Box
 type: entities
+
 ```
 
 # Método direto
