@@ -1,35 +1,86 @@
 sensor:
   - platform: mqtt
     name: "Contador - Tensão"
-    state_topic: "tele/edp_box/SENSOR"
+    state_topic: "tele/contador/SENSOR"
     value_template: '{{ value_json.EB.Voltage_P1|float }}'
     unit_of_measurement: "V"
     icon: mdi:flash
 
   - platform: mqtt
     name: "Contador - Corrente"
-    state_topic: "tele/edp_box/SENSOR"
+    state_topic: "tele/contador/SENSOR"
     value_template: '{{ value_json.EB.Current_P1|float }}'
     unit_of_measurement: "A"
     icon: mdi:power-socket
- 
+
   - platform: mqtt
     name: "Contador - Fator de Potência"
-    state_topic: "tele/edp_box/SENSOR"
+    state_topic: "tele/contador/SENSOR"
     value_template: '{{ value_json.EB.PFactor_P1|float }}'
     unit_of_measurement: "p.u."
     icon: mdi:percent
-   
+    
   - platform: mqtt
     name: "Contador - Frequência"
-    state_topic: "tele/edp_box/SENSOR"
+    state_topic: "tele/contador/SENSOR"
     value_template: '{{ value_json.EB.Frequency_P1|float }}'
     unit_of_measurement: "Hz"
     icon: mdi:current-ac
-   
+    
   - platform: mqtt
     name: "Contador - Potência Ativa"
-    state_topic: "tele/edp_box/SENSOR"
+    state_topic: "tele/contador/SENSOR"
     value_template: '{{ value_json.EB.Power_P1|float }}'
     unit_of_measurement: "W"
+    icon: mdi:power-plug
+    
+  - platform: mqtt
+    name: "Contador - Total Vazio"
+    state_topic: "tele/contador/SENSOR"
+    value_template: '{{ value_json.EB.Energy_P1_R1|float }}'
+    unit_of_measurement: "kWh"
     icon: mdi:transmission-tower
+    
+  - platform: mqtt
+    name: "Contador - Total Ponta"
+    state_topic: "tele/contador/SENSOR"
+    value_template: '{{ value_json.EB.Energy_P1_R2|float }}'
+    unit_of_measurement: "kWh"
+    icon: mdi:transmission-tower
+    
+  - platform: mqtt
+    name: "Contador - Total Cheia"
+    state_topic: "tele/contador/SENSOR"
+    value_template: '{{ value_json.EB.Energy_P1_R3|float }}'
+    unit_of_measurement: "kWh"
+    icon: mdi:transmission-tower
+    
+  - platform: mqtt
+    name: "Contador - Tarifa"
+    state_topic: "tele/contador/SENSOR"
+    value_template: >-
+      {% if value_json.EB.Tariff_P1|int == 1 %}
+        {{ 'Vazio' }}
+      {% elif value_json.EB.Tariff_P1|int == 2 %}
+        {{ 'Ponta' }}
+      {% elif value_json.EB.Tariff_P1|int == 3 %}
+        {{ 'Cheia' }}
+      {% else %}
+        {{ value_json.EB.Tariff_P1|string }}
+      {% endif %}
+    icon: 'mdi:counter'
+    
+  - platform: mqtt
+    name: "Contador - Estado DCP"
+    state_topic: "tele/contador/SENSOR"
+    value_template: >-
+      {% if value_json.EB.DCP_P1|int == 0 %}
+        {{ 'Desligado' }}
+      {% elif value_json.EB.DCP_P1|int == 1 %}
+        {{ 'Ligado' }}
+      {% elif value_json.EB.DCP_P1|int == 2 %}
+        {{ 'Preparado para religação' }}
+      {% else %}
+        {{ value_json.EB.DCP_P1|string }}
+      {% endif %}
+    icon: 'mdi:cog-refresh'
