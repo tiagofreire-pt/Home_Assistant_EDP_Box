@@ -6,13 +6,19 @@
 
 Deverá transpôr o conteúdo do ficheiro [configuration.yaml](./configuration-indireto.yaml) para o seu, na sua instalação de Home Assistante Core.
 
-Esta configuração permitirá obter as seguintes entidades de consumo e em valores instantâneos (à data de 16/07/2020):
+Esta configuração permitirá obter as seguintes entidades de consumo e estados, em valores instantâneos (à data de 05/07/2020):
 
 * Tensão (V)
 * Intensidade de corrente (A)
 * Potência ativa (W)
 * Frequência (Hz)
 * Fator de potência (pu)
+* Totalizador de energia consumida na tarifa 1 - Vazio
+* Totalizador de energia consumida na tarifa 2 - Ponta
+* Totalizador de energia consumida na tarifa 3 - Cheia
+* Tarifa atual
+* Estado do Disjuntor Controlador de Potência - DCP
+
 
 ## Aplicação das configurações
 
@@ -40,7 +46,7 @@ Deverá garantir a ligação ao contador, seguindo [estas instruções](./LIGACO
 
 Deverá transpôr o conteúdo do ficheiro [configuration.yaml](./configuration-direto.yaml) para o seu, na sua instalação de Home Assistante Core.
 
-Esta configuração permitirá obter as seguintes entidades de consumo e em valores instantâneos (à data de 16/06/2020):
+Esta configuração permitirá obter as seguintes entidades de consumo e estados, em valores instantâneos (à data de 16/06/2020):
 
 * Tensão (V)
 * Intensidade de corrente (A)
