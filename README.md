@@ -45,7 +45,6 @@ São propostas duas alternativas distintas possíveis para integração:
 ## Exclusivamente para o 1º método (indireto)
 - Conversor TTL vs RS-485 (por exemplo, "TTL to RS485 For Arduino")
 - Wemos D1 Mini
-- Resistência de 120 Ohm
 ## Exclusivamente para o 2º método (direto)
 - Conversor USB - TTL vs RS-485 (por exemplo, "Waveshare Industrial USB to RS485")
 - Cabo extensor USB "A macho" - "A fêmea" (recomendado)
