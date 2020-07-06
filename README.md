@@ -19,7 +19,7 @@ São propostas duas alternativas distintas possíveis para integração:
 # Conteúdos
 
 1. [A EDP Box e a sua porta HAN](EDP%20Box/README.md)
-   1. [Pedido de acesso](EDP%20Box/README.md#pedido-de-acesso)
+   1. [Pedido de acesso e suporte do seu atual contador](EDP%20Box/README.md#pedido-de-acesso)
    2. [Interface físico](EDP%20Box/README.md#interface-físico)
    3. [Impedância de linha](EDP%20Box/README.md#impedância-de-linha)
    4. [Comunicação](EDP%20Box/COMUNICACAO.md)
