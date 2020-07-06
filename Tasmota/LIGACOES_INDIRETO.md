@@ -7,6 +7,8 @@ Dos pinos Nº 1 `GND`, Nº 5 `(A+)` e Nº 3 `(B-)` existentes na porta HAN, deve
 
 Entre os terminais `A+` e `B-` do conversor TTL vs RS-485, é recomendado ser instalada em paralelo uma resistência de 120 Ohm. [Mais info aqui](../Energy%20Box#impedância-de-linha).
 
+**Deverá acautelar todos os requisitos e condições para este tipo de aplicação, segundo do documento fornecido pela `EDP Distribuição S.A.`, vide `Módulos alimentados pela porta HAN`, [aqui](https://www.edpdistribuicao.pt/sites/edd/files/2019-06/Requisitos%20dos%20m%C3%B3dulos%20HAN_2019.05.31.pdf).**
+
 Deverá também acautelar a correta configuração do broker MQTT (IP, username, password, tópico MQTT, et al), nos menus de configuração do Tasmota.
 
 ## Mais info
