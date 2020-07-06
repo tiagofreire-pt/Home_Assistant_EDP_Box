@@ -11,6 +11,3 @@ O protocolo de comunicação em tramas é Modbus e está implementado em Home As
 
 [Voltar](./README.md)
 
-[Como configurar o Home Assistant Core](../Home%20Assistant/README.md)
-
-
