@@ -9,5 +9,5 @@ O protocolo de comunicação em tramas é Modbus e está implementado em Home As
 
 ## Mais info
 
-[Voltar](./README.md)
+[Voltar](../README.md)
 
