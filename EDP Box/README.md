@@ -1,6 +1,6 @@
 # A porta HAN
 
-## Pedido de acesso
+## Pedido de acesso e suporte do seu atual contador
 
 `ATENÇÃO: Não se conhece qualquer obrigação legal ou regulatória do Operador de Rede de Distribuição ter de providenciar este acesso. Portanto, considere como uma eventual cortesia.`
 
