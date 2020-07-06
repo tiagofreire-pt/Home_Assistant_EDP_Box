@@ -53,7 +53,7 @@ A disponibilidade de alimentação a partir da porta HAN está limitada a uma in
 
 ## Impedância de linha
 
-A linha de comunicação, representada pelo chicote exterior a instalar pela EDP Distribuição S.A., deverá ser terminada com uma resistência de 120 Ohm, por forma a balancear todo o cirtuito com a impedância do cabo. Essa resistência será em paralelo com os terminais `A+` e `B-` do conversor TTL vs RS-485.
+A linha de comunicação, representada pelo chicote exterior a instalar pela EDP Distribuição S.A., *poderá* eventualmente ser terminada com uma resistência de 120 Ohm, por forma a balancear todo o cirtuito com a impedância do cabo. Essa resistência será em paralelo com os terminais `A+` e `B-` do conversor TTL vs RS-485.
 
 ## Mais info
 
