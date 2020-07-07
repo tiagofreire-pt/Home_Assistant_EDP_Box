@@ -11,7 +11,19 @@ Entre os terminais `A+` e `B-` do conversor TTL vs RS-485, *poderá* eventualmen
 
 **Deverá acautelar todos os requisitos e condições para este tipo de aplicação, segundo o documento fornecido pela `EDP Distribuição S.A.`, vide `Módulos alimentados pela porta HAN`, [aqui](https://www.edpdistribuicao.pt/sites/edd/files/2019-06/Requisitos%20dos%20m%C3%B3dulos%20HAN_2019.05.31.pdf).**
 
-Deverá também acautelar a correta configuração do broker MQTT (IP, username, password, tópico MQTT, et al), nos menus de configuração do Tasmota.
+# Configuração do perfil de GPIO
+
+Deverá garantir que escolheu o perfil `Generic (18)`. Poderá modificá-lo, conforme o exemplo, para garantir que o LED integrado no Wemos funciona:
+
+![tasmota_profile_gpio](./img/tasmota_profile_gpio.PNG)
+
+Não deverá alterar as configurações dos pinos `GPIO14` e `GPIO5`. Pois, são os configurados no script SMI que colocará no Tasmota, mais à frente.
+
+# Configuração de MQTT no Tasmota
+
+Deverá também acautelar a correta configuração do broker MQTT (IP, username, password, tópico MQTT, et al), nos menus de configuração do Tasmota, conforme o exemplo:
+
+![tasmota_mqtt_configs](./img/tasmota_mqtt_configs.PNG)
 
 ## Mais info
 
