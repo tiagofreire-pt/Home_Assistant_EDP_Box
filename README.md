@@ -1,20 +1,20 @@
 # Âmbito
 
-A integração entre os contadores inteligentes com sistemas de domótica permite potenciar automações, controlo e análises com base na informação disponível das grandezas elétricas. Nomeadamente, tensão, intensidade de corrente, potência ativa, fator de potência, frequência, estado do disjuntor controlador de potência, *et al*.
+A integração de contadores inteligentes com sistemas de domótica permite potenciar automações, controlo e análises com base na informação disponível das grandezas elétricas e estados do equipamento. Nomeadamente, tensão, intensidade de corrente, potência ativa, fator de potência, frequência, estado do disjuntor controlador de potência, *et al*.
 
 A EDP Distribuição S.A. surge neste contexto enquanto Operadora da Rede de Distribuição de baixa tensão. Independentemente do comercializador de energia elétrica com quem tem contrato de fornecimento e de estar em mercado regulado ou liberalizado.
 
 
 # Objetivo
 
-Pretende-se partilhar o conceito de integração entre dispositivos EDP Box com um HUB de domótica a executar [Home Assistant Core](https://www.home-assistant.io/).
+Pretende-se partilhar o conceito de integração de dispositivos EDP Box com um hub de domótica a executar [Home Assistant Core](https://www.home-assistant.io/).
 
-Esta integração é possível graças à porta de comunicação HAN que está disponível internamente nos contadores inteligentes. É também proposto neste repositório um procedimento para requisitar formalmente o acesso a esta porta.
+Esta integração é possível graças à porta de comunicação HAN que está disponível internamente nos contadores inteligentes. É também proposto neste repositório um procedimento para requisitar formalmente o acesso a esta porta e determinar o suporte do seu contador atual.
 
 São propostas duas alternativas distintas possíveis para integração:
 
 1. Integração indireta com Home Assistant, usando um microcontrolador ESP8266 com firmware Tasmota, através de MQTT.
-2. Integração direta com Home Assistant Core, com o seu componente nativo para protocolo MODBUS.
+2. Integração direta com Home Assistant Core, através do seu componente nativo para protocolo MODBUS.
 
 # Conteúdos
 
@@ -25,8 +25,10 @@ São propostas duas alternativas distintas possíveis para integração:
    4. [Comunicação](EDP%20Box/COMUNICACAO.md)
 2. [Tasmota e script de configuração para MODBUS - Para método indireto](Tasmota/README.md)
    1. [Descarga e instalação do firmware no ESP8266](Tasmota/README.md)
-   2. [Configuração do script para Smart Meter Interface (SMI)](Tasmota/CONFIGURAÇÃO-SCRIPT-SMI.md)
-   3. [Ligação física entre o contador inteligente, o ESP8266 e o hub com Home Assistant Core](Tasmota/LIGACOES_INDIRETO.md)
+   2. [Ligação física entre o contador inteligente e o ESP8266](Tasmota/LIGACOES_INDIRETO.md)
+   3. [Configuração do perfil de GPIO](Tasmota/LIGACOES_INDIRETO.md#configuração-do-perfil-de-gpio)
+   4. [Configuração de MQTT](Tasmota/LIGACOES_INDIRETO.md#configuração-de-mqtt-no-tasmota)
+   5. [Configuração do script para Smart Meter Interface (SMI)](Tasmota/CONFIGURAÇÃO-SCRIPT-SMI.md)
 3. [Home Assitant Core e a sua configuração - Para método direto e indireto](Home%20Assistant/README.md)
    1. [Ligação física entre o contador inteligente e o hub com Home Assistant Core](Home%20Assistant/LIGACOES_DIRETO.md)
    2. [Ficheiro de configuração](Home%20Assistant/README.md#configuração-do-home-assistant-core) 
@@ -38,9 +40,9 @@ São propostas duas alternativas distintas possíveis para integração:
 ## Transversais
 - Contador inteligente com porta HAN ativada, suportando o protocolo de tramas MODBUS.
 - Acesso exterior à porta HAN, previamente instalado pela EDP Distribuição S.A.;
-- Raspberry Pi 3 B+ ou superior (alternativamente, Home Assistant Core em PC, máquina física ou virtualizada em Proxmox);
-- Home Assistant Core instalado (versão inicial de prova de conceito: 0.106.6. Recomendada a versão 0.109.7 ou superior.);
-- Mosquitto MQTT Broker instalado (versão 5.0 ou superior, como add-on oficial em Home Assistant Core. Ou qualquer outro broker MQTT à sua discrição);
+- Raspberry Pi 3 B+ ou superior (alternativamente, Home Assistant Core em outra máquina física ou virtualizada);
+- Home Assistant Core instalado (versão inicial de prova de conceito: 0.106.6. Recomendada a versão 0.109.7 ou superior);
+- Mosquitto MQTT Broker instalado (versão 5.0 ou superior, como add-on oficial em Home Assistant Core. Ou qualquer outro broker MQTT à sua escolha);
 - Acessórios de ligação variados.
 ## Exclusivamente para o 1º método (indireto)
 - Conversor TTL vs RS-485 (por exemplo, "TTL to RS485 For Arduino")
