@@ -1,6 +1,6 @@
 # Ligações
 
-Dos pinos Nº 1 `GND`, Nº 5 `(A+)` e Nº 3 `(B-)` existentes na porta HAN, deverão ser ligados os seus correspondentes no chicote, instalado pela EDP Distribuição S.A., aos respectivos terminais `GND, `A+` e `B-` do conversor TTL vs RS-485:
+Os pinos Nº 1 `GND`, Nº 5 `(A+)` e Nº 3 `(B-)` existentes na porta HAN, correspondentes no chicote instalado pela `EDP Distribuição S.A.`, deverão ser ligados aos terminais `GND`, `A+` e `B-` do conversor TTL vs RS-485:
 
 ![tasmota-rs485](./img/tasmota-rs485.png)
 >
