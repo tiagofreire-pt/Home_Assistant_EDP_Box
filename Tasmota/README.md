@@ -4,7 +4,7 @@
 
 Deverá descarregar o firmware pré-compilado [aqui](./tasmota.bin). 
 
-Este firmware é baseado no repositório do Tasmota, versão 8.3.1, preparado para memória flash até 1 MB. Compatível com Wemos D1 Mini e outros dispositivos, por exemplo, da marca Sonoff ou NodeMCU.
+Este firmware pré-compilado é **personalizado** para esta abordagem, sendo baseado no repositório do Tasmota, versão 8.3.1, preparado para memória flash até 1 MB. Compatível com Wemos D1 Mini e outros dispositivos, por exemplo, da marca Sonoff ou NodeMCU.
 
 ## Compilação do firmware Tasmota (método alternativo avançado - não recomendado)
 
