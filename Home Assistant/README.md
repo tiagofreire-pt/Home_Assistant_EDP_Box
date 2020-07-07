@@ -37,7 +37,7 @@ entities:
   - entity: sensor.edp_box_tarifa
   - entity: sensor.edp_box_estado_dcp
 show_header_toggle: false
-title: EDP Energy Box
+title: Contador
 type: entities
 
 ```
