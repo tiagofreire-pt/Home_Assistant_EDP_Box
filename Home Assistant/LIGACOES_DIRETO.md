@@ -1,4 +1,4 @@
-# Ligações
+# Ligações para método direto
 
 Dos pinos Nº 5 `(A+)` e Nº 3 `(B-)` existentes na porta HAN, deverão ser ligados os seus correspondentes no chicote, instalado pela EDP Distribuição S.A., aos respectivos terminais `A+` e `B-` do conversor TTL vs RS-485.
 
