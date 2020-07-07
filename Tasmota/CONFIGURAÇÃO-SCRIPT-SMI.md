@@ -57,7 +57,7 @@ Este script extrairá as seguintes grandesas elétricas e informações técnica
 
 Estes dados são pertencentes à fase Nº 1 de consumo, a única em instalações monofásicas. Para instalações trifásicas ou com produção de energia, deverá consultar a documentação citada na página principal.
 
-Após submeter, deverá desligar e religar a alimentação do Wemos D1 mini. Após o início da firmware, deverá obter a seguinte visualização correta:
+Após submeter, deverá desligar e religar a alimentação do Wemos D1 mini. Posteriormente ao início da firmware, deverá obter a seguinte visualização correta, como exemplo:
 
 ![tasmota_edp_box](./img/tasmota_edp_box.png)
 >
