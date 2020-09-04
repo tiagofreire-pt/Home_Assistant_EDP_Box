@@ -26,16 +26,16 @@ Deverá re-iniciar a sua instalação do Home Assistant Core e, posteriormente, 
 
 ```yaml
 entities:
-  - entity: sensor.edp_box_tensao
-  - entity: sensor.edp_box_corrente
-  - entity: sensor.edp_box_potencia_ativa
-  - entity: sensor.edp_box_fator_de_potencia
-  - entity: sensor.edp_box_frequencia
-  - entity: sensor.edp_box_total_vazio
-  - entity: sensor.edp_box_total_ponta
-  - entity: sensor.edp_box_total_cheia
-  - entity: sensor.edp_box_tarifa
-  - entity: sensor.edp_box_estado_dcp
+  - entity: sensor.contador_tensao
+  - entity: sensor.contador_corrente
+  - entity: sensor.contador_potencia_ativa
+  - entity: sensor.contador_fator_de_potencia
+  - entity: sensor.contador_frequencia
+  - entity: sensor.contador_total_vazio
+  - entity: sensor.contador_total_ponta
+  - entity: sensor.contador_total_cheia
+  - entity: sensor.contador_tarifa
+  - entity: sensor.contador_estado_dcp
 show_header_toggle: false
 title: Contador
 type: entities
