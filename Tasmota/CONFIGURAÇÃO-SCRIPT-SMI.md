@@ -62,6 +62,40 @@ Após submeter, deverá desligar e religar a alimentação do Wemos D1 mini. Pos
 ![tasmota_edp_box](./img/tasmota_edp_box.png)
 >
 
+Sagem CX2000-9
+
+...
+>D
+
+>B
+=>sensor53 r
+
+>M 1
+
++1,14,m,1,9600,EB,5,50,0104006C,01040079,0104007A,0104007F,01040026,01040027,01040028,0104006E,01040070
+
+1,010404UUuuxxxx@i0:10,Tensão L1,V,Voltage_L1,17
+1,010404UUuuxxxx@i7:10,Tensão L2,V,Voltage_L2,17
+1,010404UUuuxxxx@i8:10,Tensão L3,V,Voltage_L3,17
+
+1,010404xxxxUUuu@i0:10,Corrente L1,A,Current_L1,17
+1,010404xxxxUUuu@i7:10,Corrente L2,A,Current_L2,17
+1,010404xxxxUUuu@i8:10,Corrente L3,A,Current_L3,17
+
+1,010408UUuuUUuuxxxxxxxxxxxx@i1:1,Potência Activa,W,Power_P1,16
+1,010406xxxxxxxxUUuu@i2:1000,Factor de Potência,pu,PFactor_P1,19
+1,01040aUUuuxxxx@i3:10,Frequência,Hz,Frequency_P1,17
+
+1,010408UUuuUUuuxxxxxxxxxxxx@i4:1000,Vazio (1),kWh,Energy_P1_R1,17
+1,010408UUuuUUuuxxxxxxxxxxxx@i5:1000,Ponta (2),kWh,Energy_P1_R2,17
+1,010408UUuuUUuuxxxxxxxxxxxx@i6:1000,Cheia (3),kWh,Energy_P1_R3,17
+
+#
+...
+
+Existe um possível overflow no tasmota, tive de remover o DCP e Tarifa.
+- ou perdia os decimais em todos os valores int()
+- ou o valor do R3 aparecia no DCP e vice-versa
 
 # Mais info
 
