@@ -12,6 +12,21 @@ Deverá aguardar pela substituição programada do seu contador de energia elét
 
 ### Se o seu modelo `corresponde exatamente` a algum dos supracitados:
 
+**ALERTA: Não se dão quaisquer garantias de funcionamento.**
+
+Este repositório contém apenas e só uma prova de conceito de integração, validada experimentalmente com sucesso **parcial** em alguns modelos (21/09/2020):
+
+* Janz C3801 (R4LRFGPRS) - 1 caso de sucesso
+* Sagemcom CX2000-9 - 1 caso de sucesso
+* LANDIS+GYR ZCXe110CR - 1 caso de sucesso
+
+Totalmente *desaconselhados*:
+
+* ZIV 5CTME2C e seus derivados
+
+
+Ainda assim, se pretender prosseguir:
+
 O acesso a esta porta requerá um pedido formal à EDP Distribuição S.A., através do endereço: apoiocliente@edpdistribuicao.pt.
 
 Deverá indicar no pedido:
