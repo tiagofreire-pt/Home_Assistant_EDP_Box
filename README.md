@@ -55,6 +55,7 @@ São propostas duas alternativas distintas possíveis para integração:
 # Fontes
 
 [EDP Box - HAN protocol specification (DEF-C44-509/N) - Julho 2020](https://www.edpdistribuicao.pt/sites/edd/files/2020-07/DEF-C44-509.pdf)
+
 [EDP Box - HAN protocol specification (DEF-C44-509/N) - Julho 2017](https://www.edpdistribuicao.pt/sites/edd/files/normative_docs/DEF-C44-509.pdf)
 
 [Descrição dos requisitos e respetiva aplicabilidade em função do tipo de módulo HAN](https://www.edpdistribuicao.pt/sites/edd/files/2019-06/Requisitos%20dos%20m%C3%B3dulos%20HAN_2019.05.31.pdf?fbclid=IwAR1txmKfYIbwCae6eR5njlblvvBMB1xiLvp5ynURi9qAW4rsOut3WFfJNQM)
