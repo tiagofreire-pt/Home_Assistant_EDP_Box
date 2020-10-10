@@ -65,9 +65,7 @@ Após submeter, deverá desligar e religar a alimentação do Wemos D1 mini. Pos
 
 Script para contador trifásico:
 
-Sagem CX2000-9
-
-...
+```
 >D
 
 >B
@@ -97,6 +95,7 @@ Sagem CX2000-9
 1,010406uuxxxxxxxx@i8:1,DCP,,DCP_P1,16
 
 #
+```
 
 Este script extrairá as seguintes grandesas elétricas e informações técnicas do contador inteligente, a cada 5 segundos:
 
