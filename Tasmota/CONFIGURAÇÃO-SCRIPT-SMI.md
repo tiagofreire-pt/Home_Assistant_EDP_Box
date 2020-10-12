@@ -65,6 +65,8 @@ Após submeter, deverá desligar e religar a alimentação do Wemos D1 mini. Pos
 
 Script para contador trifásico:
 
+Contributo de [nikito7](https://github.com/nikito7), com mais info aprofundada para contadores trifásicos e com venda de energia à rede, no seu [repositório ](https://github.com/nikito7/HA_EDP_Box_Trifasico)
+
 ```
 >D
 
