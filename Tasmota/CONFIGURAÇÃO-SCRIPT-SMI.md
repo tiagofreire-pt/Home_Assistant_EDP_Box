@@ -4,7 +4,7 @@ Após abrir o web-gui do Tasmota, pelo seu IP local, deverá aceder à página d
 
 Deverá ativar a opção de "script ativado" e colar o seguinte script para contador monofásico:
 
-```
+```js
 >D
  
 >B
@@ -67,7 +67,7 @@ Script para contador trifásico:
 
 Contributo de [nikito7](https://github.com/nikito7), com mais info aprofundada para contadores trifásicos e com venda de energia à rede, no seu [repositório ](https://github.com/nikito7/HA_EDP_Box_Trifasico)
 
-```
+```js
 >D
 
 >B
