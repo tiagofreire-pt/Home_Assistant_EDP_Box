@@ -17,7 +17,7 @@ Deverá aguardar pela substituição programada do seu contador de energia elét
 Este repositório contém apenas e só uma prova de conceito de integração, validada experimentalmente com sucesso em alguns modelos (13/10/2020):
 
 * Janz C3801 (R4LRFGPRS) - 1 caso de sucesso
-* Sagemcom CX2000-9 - 1 caso de sucesso
+* Sagemcom CX2000-9 - 2 casos de sucesso
 * LANDIS+GYR ZCXe110CR - 2 casos de sucesso
 
 Totalmente *desaconselhados*:
