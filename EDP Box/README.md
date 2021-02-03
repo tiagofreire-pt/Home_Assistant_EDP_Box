@@ -25,18 +25,18 @@ Totalmente *desaconselhados*:
 * ZIV 5CTME2C e seus derivados
 
 
-Ainda assim, se pretender prosseguir:
+Ainda assim, se pretender prosseguir, o acesso a esta porta requerá um pedido formal à E-Redes S.A.
 
-O acesso a esta porta requerá um pedido formal à EDP Distribuição S.A., através do endereço: apoiocliente@edpdistribuicao.pt.
+Deverá seguir as instruções que estão neste link: https://www.e-redes.pt/pt-pt/redes-do-futuro-redes-inteligentes/servicos-redes-inteligentes/acesso-porta-serie-de-comunicacao
 
-Deverá indicar no pedido:
+Deverá ter reunir a seguinte informação:
 
 1. Identificação pessoal do titular do contrato de energia elétrica:
    * Nome completo
    * NIF
    * Morada do local de consumo
 2. Código do Ponto de Entrega (CPE). Consta na sua fatura de eletricidade;
-3. Pretenção da porta HAN no exterior da EDP Box, através de um chicote terminado em ficha RJ12, para ligação de um periférico do `tipo A - sem ligação à rede BT`, conforme o pinout definido na `secção 3.1` da `DEF-C44-509/N`;
+3. Pretenção de acesso à porta HAN no exterior da EDP Box, através de um chicote terminado em ficha RJ12, para ligação de um periférico do `tipo A - sem ligação à rede BT`, conforme o pinout definido na `secção 3.1` da `DEF-C44-509/N`;
 4. Questões sobre eventuais custos, condições e procedimentos.
 
 Haverá uma provável deslocação de um técnico especializado à sua instalação para deselagem, instalação de um chicote exterior e nova selagem do contador inteligente.
