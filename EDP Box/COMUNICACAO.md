@@ -1,6 +1,6 @@
 # Comunicação
 
-A porta HAN permite comunicação em [RS-485](https://en.wikipedia.org/wiki/RS-485), com modo `full duplex`. Todavia, por especificação da `EDP Distribuição S.A.`, apenas está disponível comunicação com modo `half duplex`.
+A porta HAN permite comunicação em [RS-485](https://en.wikipedia.org/wiki/RS-485), com modo `full duplex`. Todavia, por especificação da `E-Redes S.A.`, apenas está disponível comunicação com modo `half duplex`.
 
 O protocolo de comunicação em tramas é [MODBUS](https://en.wikipedia.org/wiki/Modbus).
 
