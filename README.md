@@ -39,7 +39,7 @@ São propostas duas alternativas distintas possíveis para integração:
 
 ## Transversais
 - Contador inteligente com porta HAN ativada, suportando o protocolo de tramas MODBUS.
-- Acesso exterior à porta HAN, previamente instalado pela EDP Distribuição S.A.;
+- Acesso exterior à porta HAN, previamente instalado pela E-Redes S.A.;
 - Raspberry Pi 3 B+ ou superior (alternativamente, Home Assistant Core em outra máquina física ou virtualizada);
 - Home Assistant Core instalado (versão inicial de prova de conceito: 0.106.6. Recomendada a versão 0.109.7 ou superior);
 - Mosquitto MQTT Broker instalado (versão 5.0 ou superior, como add-on oficial em Home Assistant Core. Ou qualquer outro broker MQTT à sua escolha);
