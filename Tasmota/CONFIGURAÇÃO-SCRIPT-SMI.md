@@ -6,10 +6,22 @@ Deverá ativar a opção de "script ativado" e colar o seguinte script para cont
 
 ```js
 >D
- 
->B
+
+>BS
+
+smlj=0
+tper=60
+
 =>sensor53 r
- 
+
+>S
+
+if upsecs>20
+and upsecs<30
+then
+smlj=1
+endif
+
 >M 1
  
 +1,14,m,1,9600,EB,5,50,0104006C,01040079,0104007A,0104007F,01040026,01040027,01040028,0104000B,01040084
@@ -70,8 +82,20 @@ Contributo de [nikito7](https://github.com/nikito7), com mais info aprofundada p
 ```js
 >D
 
->B
+>BS
+
+smlj=0
+tper=60
+
 =>sensor53 r
+
+>S
+
+if upsecs>20
+and upsecs<30
+then
+smlj=1
+endif
 
 >M 1
 
