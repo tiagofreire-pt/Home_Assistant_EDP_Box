@@ -14,11 +14,12 @@ Deverá aguardar pela substituição programada do seu contador de energia elét
 
 **ALERTA: Não se dão quaisquer garantias de funcionamento.**
 
-Este repositório contém apenas e só uma prova de conceito de integração, validada experimentalmente com sucesso em alguns modelos (13/10/2020):
+Este repositório contém apenas e só uma prova de conceito de integração, validada experimentalmente com sucesso em alguns modelos (27/03/2021):
 
 * Janz C3801 (R4LRFGPRS) - 1 caso de sucesso
 * Sagemcom CX2000-9 - 2 casos de sucesso
 * LANDIS+GYR ZCXe110CR - 2 casos de sucesso
+* KAIFA MA109P - 1 caso de sucesso
 
 Totalmente *desaconselhados*:
 
