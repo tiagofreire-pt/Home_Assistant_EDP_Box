@@ -23,8 +23,8 @@ Este repositório contém apenas e só uma prova de conceito de integração, va
 
 Totalmente *desaconselhados*:
 
-* ZIV 5CTME2C e seus derivados
-
+* ZIV 5CTME2C e seus derivados.
+Requisitos ZIV: Hardware Serial (gpio 1 e 3); 8O2 mode (ODD); Tasmota Dev > 2021/03/30.
 
 Ainda assim, se pretender prosseguir, o acesso a esta porta requerá um pedido formal à E-Redes S.A.
 
