@@ -20,10 +20,7 @@ Este repositório contém apenas e só uma prova de conceito de integração, va
 * Sagemcom CX2000-9 - 2 casos de sucesso
 * LANDIS+GYR ZCXe110CR - 4 casos de sucesso
 * KAIFA MA109P - 1 caso de sucesso
-
-Temporariamente *desaconselhados*:
-
-* ZIV 5CTME2C e seus derivados deverão testar a seguinte configuração alternativa: Hardware Serial (gpio 1 e 3); 8O2 mode (ODD); Tasmota Dev > 2021/03/30.
+* ZIV 5CTME2C [configuração alternativa: Hardware Serial; gpio 1 e 3; mN2; Tasmota Dev > 2021/03/30] - 2 casos de sucesso
 
 Ainda assim, se pretender prosseguir, o acesso a esta porta requerá um pedido formal à E-Redes S.A.
 
