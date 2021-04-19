@@ -1,9 +1,9 @@
 # Ligações para método direto
 
-Dos pinos Nº 5 `(A+)` e Nº 3 `(B-)` existentes na porta HAN, deverão ser ligados os seus correspondentes no chicote, instalado pela EDP Distribuição S.A., aos respectivos terminais `A+` e `B-` do conversor TTL vs RS-485.
+Dos pinos Nº 5 `(A+)` e Nº 3 `(B-)` existentes na porta HAN, deverão ser ligados os seus correspondentes no chicote, instalado pela `E-Redes S.A.`, aos respectivos terminais `A+` e `B-` do conversor TTL vs RS-485.
 
 ![rs485_usb](./img/rs485_usb.jpg)
-> 
+>
 
 Entre os terminais `A+` e `B-` do conversor TTL vs RS-485, *poderá* eventualmente ser instalada em paralelo uma resistência de 120 Ohm. [Mais info aqui](../EDP%20Box#impedância-de-linha).
 
@@ -13,12 +13,10 @@ A ficha USB do conversor TTL vs RS-485 deverá ser ligada numa porta USB dispon�
 
 Existe a possibilidade de estender em dezenas de metros o chicote exterior, através de cabo UTP-5. Esse método não faz parte de esta prova de conceito.
 
-**Deverá acautelar todos os requisitos e condições para este tipo de aplicação, segundo o documento fornecido pela `EDP Distribuição S.A.`, vide `Módulos alimentados pela porta HAN`, [aqui](https://www.edpdistribuicao.pt/sites/edd/files/2019-06/Requisitos%20dos%20m%C3%B3dulos%20HAN_2019.05.31.pdf).**
+**Deverá acautelar todos os requisitos e condições para este tipo de aplicação, segundo o documento fornecido pela `E-Redes S.A.`, vide `Módulos alimentados pela porta HAN`, [aqui](https://www.edpdistribuicao.pt/sites/edd/files/2019-06/Requisitos%20dos%20m%C3%B3dulos%20HAN_2019.05.31.pdf).**
 
 ## Mais info
 
 [Home Assitant Core e a sua configuração - Para método direto](./README.md#método-direto)
 
 [Voltar](../README.md)
-
-

@@ -2,7 +2,7 @@
 
 ## Descarga do firmware Tasmota pré-compilado (recomendado)
 
-Deverá descarregar o firmware pré-compilado, [aqui](https://github.com/tiagofreire-pt/Home_Assistant_EDP_Box/raw/master/Tasmota/tasmota.bin). 
+Deverá descarregar o firmware pré-compilado, [aqui](https://github.com/tiagofreire-pt/Home_Assistant_EDP_Box/raw/master/Tasmota/tasmota.bin).
 
 Este firmware pré-compilado é **personalizado** para esta abordagem, sendo baseado no repositório do Tasmota, versão 9.1.0, preparado para memória flash até 1 MB. Compatível com Wemos D1 Mini e outros dispositivos, por exemplo, da marca Sonoff ou NodeMCU.
 
@@ -29,7 +29,7 @@ No ponto 3 do TasmoCompiler, para garantir as funcionalidades mais utilizadas em
 
 Deverá obrigatoriamente adicionar a configuração seguinte quando lhe o for solicitado no ponto 4 (`Custom parameters`):
 
-```
+```c
 #ifndef USE_SCRIPT
 #define USE_SCRIPT
 #endif
@@ -44,9 +44,7 @@ Deverá obrigatoriamente adicionar a configuração seguinte quando lhe o for so
 
 Mais info, [aqui](https://tasmota.github.io/docs/Smart-Meter-Interface/).
 
-
-# Mais info
-
+## Mais info
 
 [Ligação física entre o contador inteligente, o ESP8266 e o hub com Home Assistant Core](./LIGACOES_INDIRETO.md)
 

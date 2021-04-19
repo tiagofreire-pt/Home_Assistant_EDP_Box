@@ -1,6 +1,6 @@
 # Ligações
 
-Os pinos Nº 1 `GND`, Nº 5 `(A+)` e Nº 3 `(B-)` existentes na porta HAN, correspondentes no chicote instalado pela `EDP Distribuição S.A.`, deverão ser ligados aos terminais `GND`, `A+` e `B-` do conversor TTL vs RS-485:
+Os pinos Nº 1 `GND`, Nº 5 `(A+)` e Nº 3 `(B-)` existentes na porta HAN, correspondentes no chicote instalado pela `E-Redes S.A.`, deverão ser ligados aos terminais `GND`, `A+` e `B-` do conversor TTL vs RS-485:
 
 ![tasmota-rs485](./img/tasmota-rs485.png)
 >
@@ -9,7 +9,7 @@ A disponibilidade de alimentação a partir da porta HAN está limitada a uma in
 
 Entre os terminais `A+` e `B-` do conversor TTL vs RS-485, *poderá* eventualmente ser instalada em paralelo uma resistência de 120 Ohm. Mais info, [aqui](../EDP%20Box#impedância-de-linha).
 
-**Deverá acautelar todos os requisitos e condições para este tipo de aplicação, segundo o documento fornecido pela `EDP Distribuição S.A.`, vide `Módulos alimentados pela porta HAN`, [aqui](https://www.edpdistribuicao.pt/sites/edd/files/2019-06/Requisitos%20dos%20m%C3%B3dulos%20HAN_2019.05.31.pdf).**
+**Deverá acautelar todos os requisitos e condições para este tipo de aplicação, segundo o documento fornecido pela `E-Redes S.A.`, vide `Módulos alimentados pela porta HAN`, [aqui](https://www.edpdistribuicao.pt/sites/edd/files/2019-06/Requisitos%20dos%20m%C3%B3dulos%20HAN_2019.05.31.pdf).**
 
 # Configuração do perfil de GPIO
 
@@ -30,4 +30,3 @@ Deverá também acautelar a correta configuração do broker MQTT (IP, username,
 [Configuração do script para Smart Meter Interface (SMI)](./CONFIGURAÇÃO-SCRIPT-SMI.md)
 
 [Voltar](./README.md)
-

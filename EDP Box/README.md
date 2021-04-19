@@ -4,7 +4,7 @@
 
 `ATENÇÃO: Não se conhece qualquer obrigação legal ou regulatória do Operador de Rede de Distribuição ter de providenciar este acesso. Portanto, considere como uma eventual cortesia.`
 
-Em primeiro lugar, verifique se o seu contador de energia elétrica consta da seguinte lista de equipamentos com porta HAN: [Novos Equipamentos](https://www.edpdistribuicao.pt/sites/edd/files/2019-04/Novos_Equipamentos.pdf?fbclid=IwAR3zNpBId8BMqrSVaPoekoUvqt-xxstLua4iqZN2qz-8Xf2hvRQqtU8g2xo)
+Em primeiro lugar, verifique se o seu contador de energia elétrica consta da seguinte lista de equipamentos com porta HAN: [Novos Equipamentos](https://www.edpdistribuicao.pt/sites/edd/files/2019-04/Novos_Equipamentos.pdf)
 
 ### Caso o seu modelo `NÃO` corresponda exatamente a algum dos supracitados:
 
@@ -24,7 +24,7 @@ Este repositório contém apenas e só uma prova de conceito de integração, va
 
 Ainda assim, se pretender prosseguir, o acesso a esta porta requerá um pedido formal à E-Redes S.A.
 
-Deverá seguir as instruções que estão neste link: https://www.e-redes.pt/pt-pt/redes-do-futuro-redes-inteligentes/servicos-redes-inteligentes/acesso-porta-serie-de-comunicacao
+Deverá seguir as instruções que estão neste link: <https://www.e-redes.pt/pt-pt/redes-do-futuro-redes-inteligentes/servicos-redes-inteligentes/acesso-porta-serie-de-comunicacao>
 
 Deverá ter reunir a seguinte informação:
 
@@ -47,10 +47,8 @@ Esta prova de conceito é baseada numa EDP Box da marca Janz, modelo C3801 (R4LR
 
 A porta de comunicação tem um formato físico RJ12, de 6 pinos e 6 coneções (6P6C):
 
-
 ![rj-12](https://upload.wikimedia.org/wikipedia/commons/3/3c/Rj25_connector.jpg)
 > Fonte: wikipedia.com
-
 
 | # do pino | Função |
 |----------|----------|
@@ -72,4 +70,3 @@ A linha de comunicação, representada pelo chicote exterior a instalar pela E-R
 [Voltar](../README.md)
 
 [Como se comunica com a EDP Box](./COMUNICACAO.md)
-
