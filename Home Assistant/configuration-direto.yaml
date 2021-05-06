@@ -75,12 +75,8 @@ sensor:
         register: 11
         register_type: input
         count: 1
-        # conversão de 1/256
-        scale: 0.00390625
-        offset: 0
-        precision: 0
-        # unsigned
-        data_type: uint
+        data_type: custom
+        structure: ">Bx"
                 
       - name: 'Switch Control State'
         ## 0 para disconectado - 1 para conectado - 2 para preparado a reconectar
@@ -89,7 +85,5 @@ sensor:
         register: 132
         register_type: input
         count: 1
-        # conversão de 1/256
-        scale: 0.00390625
-        offset: 0
-        data_type: uint
+        data_type: custom
+        structure: ">Bx"
