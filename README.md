@@ -87,7 +87,7 @@ Método direto:
 * [X] Totalizadores de energia *
 * [ ] Religação do DCP
 
-( * usar custom component @nikito7 )
+``` * usar custom component @nikito7 ```
 
 Método indireto (atualizado em 05/07/2020):
 
