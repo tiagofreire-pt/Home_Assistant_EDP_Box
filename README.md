@@ -83,9 +83,11 @@ Todas as marcas registadas, nomes de produtos ou de marcas, referidas neste docu
 
 Método direto:
 
-* [ ] Potência ativa
-* [ ] Totalizadores de energia
+* [X] Potência ativa *
+* [X] Totalizadores de energia *
 * [ ] Religação do DCP
+
+( * usar custom component @nikito7 )
 
 Método indireto (atualizado em 05/07/2020):
 
