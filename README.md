@@ -63,7 +63,7 @@ São propostas duas alternativas distintas possíveis para integração:
 
 [Descrição dos requisitos e respetiva aplicabilidade em função do tipo de módulo HAN (2019.06)](https://www.edpdistribuicao.pt/sites/edd/files/2019-06/Requisitos%20dos%20m%C3%B3dulos%20HAN_2019.05.31.pdf)
 
-[Descrição dos requisitos e respetiva aplicabilidade em função do tipo de módulo HAN (e-redes 2021.04)](https://www.e-redes.pt/sites/eredes/files/2021-04/Requisitos%2520dos%2520m%25C3%25B3dulos%2520HAN.pdf)
+[Descrição dos requisitos e respetiva aplicabilidade em função do tipo de módulo HAN (e-redes 2021.04)](https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.e-redes.pt/sites/eredes/files/2021-04/Requisitos%2520dos%2520m%25C3%25B3dulos%2520HAN.pdf)
 
 [Contadores de energia elétrica - Especificação funcional (DEF-C44-506/N)](https://www.edpdistribuicao.pt/sites/edd/files/normative_docs/DEF-C44-506N.pdf)
 
