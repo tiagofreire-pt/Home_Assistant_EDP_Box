@@ -80,6 +80,7 @@ Todas as marcas registadas, nomes de produtos ou de marcas, referidas neste docu
 * 4 de Julho de 2020: segunda integração validada e publicada, através de MQTT e WIFI.
 * 13 de Março de 2020: primeira integração publicada e validada, através de USB.
 * 10 de Outubro de 2020: atualização para contadores trifásicos (@nikito7) e Tasmota 8.5.1.
+* 11 de Abril de 2021: suporte para contadores ZIV.
 * 20 de Maio de 2021: todos os contadores existentes funcionam.
 
 # A fazeres
