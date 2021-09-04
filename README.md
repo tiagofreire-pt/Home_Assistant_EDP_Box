@@ -91,7 +91,7 @@ Método direto:
 * [X] Totalizadores de energia *
 * [ ] Religação do DCP
 
-``` * usar custom component @nikito7 ```
+``` * HA 2021.8 ```
 
 Método indireto (atualizado em 05/07/2020):
 
