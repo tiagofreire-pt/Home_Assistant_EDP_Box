@@ -57,17 +57,13 @@ São propostas duas alternativas distintas possíveis para integração:
 
 # Fontes
 
-[EDP Box - HAN protocol specification (DEF-C44-509/N) - Julho 2020](https://www.edpdistribuicao.pt/sites/edd/files/2020-07/DEF-C44-509.pdf)
+[EDP Box - HAN protocol specification (DEF-C44-509/N) - Julho 2020](https://www.e-redes.pt/sites/eredes/files/2020-07/DEF-C44-509.pdf)
 
-[EDP Box - HAN protocol specification (DEF-C44-509/N) - Julho 2017](https://www.edpdistribuicao.pt/sites/edd/files/normative_docs/DEF-C44-509.pdf)
+[Descrição dos requisitos e respetiva aplicabilidade em função do tipo de módulo HAN - Abril 2021](https://www.e-redes.pt/sites/eredes/files/2021-04/Requisitos%20dos%20m%C3%B3dulos%20HAN.pdf)
 
-[Descrição dos requisitos e respetiva aplicabilidade em função do tipo de módulo HAN (2019.06)](https://www.edpdistribuicao.pt/sites/edd/files/2019-06/Requisitos%20dos%20m%C3%B3dulos%20HAN_2019.05.31.pdf)
+[Contadores de energia elétrica - Especificação funcional (DEF-C44-506/N)](https://www.e-redes.pt/sites/edd/files/normative_docs/DEF-C44-506N.pdf)
 
-[Descrição dos requisitos e respetiva aplicabilidade em função do tipo de módulo HAN (e-redes 2021.04)](https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.e-redes.pt/sites/eredes/files/2021-04/Requisitos%2520dos%2520m%25C3%25B3dulos%2520HAN.pdf)
-
-[Contadores de energia elétrica - Especificação funcional (DEF-C44-506/N)](https://www.edpdistribuicao.pt/sites/edd/files/normative_docs/DEF-C44-506N.pdf)
-
-[Novos Equipamentos](https://www.edpdistribuicao.pt/sites/edd/files/2019-04/Novos_Equipamentos.pdf)
+[Novos Equipamentos](https://www.e-redes.pt/sites/eredes/files/2021-03/Contadores_Site_E_REDES_2021_02.pdf)
 
 # Notas importantes
 
@@ -77,8 +73,8 @@ Todas as marcas registadas, nomes de produtos ou de marcas, referidas neste docu
 
 # Versionamento
 
-* 4 de Julho de 2020: segunda integração validada e publicada, através de MQTT e WIFI.
 * 13 de Março de 2020: primeira integração publicada e validada, através de USB.
+* 4 de Julho de 2020: segunda integração validada e publicada, através de MQTT e WIFI.
 * 10 de Outubro de 2020: atualização para contadores trifásicos (@nikito7) e Tasmota 8.5.1.
 * 11 de Abril de 2021: suporte para contadores ZIV.
 * 20 de Maio de 2021: todos os contadores existentes funcionam.
