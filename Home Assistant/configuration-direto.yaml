@@ -1,89 +1,174 @@
 modbus:
-  name: edp_box_1
-  type: serial
-  method: rtu
-  port: /dev/ttyUSB0
-  baudrate: 9600
-  stopbits: 1
-  bytesize: 8
-  parity: N
-  timeout: 10
-
-sensor:
-  - platform: modbus
-    scan_interval: 5
-    registers:
-      - name: 'Frequency'
-        hub: edp_box_1
+  - name: edp_box_1
+    type: serial
+    method: rtu
+    port: /dev/ttyUSB1
+    baudrate: 9600
+    stopbits: 1
+    bytesize: 8
+    parity: N
+    delay: 1
+    timeout: 5
+    retries: 5
+    retry_on_empty: true
+    message_wait_milliseconds: 200
+    sensors:
+      - name: 'EDP Box - Frequência'
+        scan_interval: 5
         slave: 1
-        register: 127
-        register_type: input
+        address: 127
+        input_type: input
         unit_of_measurement: 'Hz'
         count: 1
         scale: 0.1
         offset: 0
         precision: 2
         # long unsigned
-        data_type: uint
+        data_type: uint16
         
-      - name: 'Voltage L1'
-        hub: edp_box_1
+      - name: 'EDP Box - Tensão'
+        scan_interval: 5
         slave: 1
-        register: 108
-        register_type: input
+        address: 108
+        input_type: input
         unit_of_measurement: 'V'
         count: 1
         scale: 0.1
         offset: 0
         precision: 1
         # long unsigned
-        data_type: uint
+        data_type: uint16
+        device_class: voltage
 
-      - name: 'Current L1'
-        hub: edp_box_1
+      - name: 'EDP Box - Corrente'
+        scan_interval: 5
         slave: 1
-        register: 109
-        register_type: input
+        address: 109
+        input_type: input
         unit_of_measurement: 'A'
         count: 1
         scale: 0.1
         offset: 0
         precision: 1
         # long unsigned
-        data_type: uint
-        
-      - name: 'Power factor'
-        hub: edp_box_1
+        data_type: uint16
+        device_class: current
+
+      - name: "EDP Box - Potência Ativa"
         slave: 1
-        register: 123
-        register_type: input
+        address: 121
+        input_type: input
+        count: 1
+        data_type: uint32
+        precision: 1
+        scale: 1
+        unit_of_measurement: W
+        device_class: power
+
+      - name: 'EDP Box - Fator de Potência'
+        scan_interval: 5
+        slave: 1
+        address: 123
+        input_type: input
         unit_of_measurement: 'p.u.'
         count: 1
         scale: 0.001
         offset: 0
         precision: 3
         # long unsigned
-        data_type: uint
+        data_type: uint16
+        device_class: power_factor
 
-  - platform: modbus
-    scan_interval: 10
-    registers:
-      - name: 'Tariff'
-        ## 1 para Vazio - 2 para Ponta - 3 para Cheia
-        hub: edp_box_1
-        slave: 1
-        register: 11
-        register_type: input
-        count: 1
-        data_type: custom
-        structure: ">Bx"
-                
-      - name: 'Switch Control State'
+      - name: 'ICP State L1'
         ## 0 para disconectado - 1 para conectado - 2 para preparado a reconectar
-        hub: edp_box_1
+        scan_interval: 5
         slave: 1
-        register: 132
-        register_type: input
+        address: 132
+        input_type: input
         count: 1
         data_type: custom
         structure: ">Bx"
+
+      - name: 'Tariff L1'
+        ## 1 para Vazio - 2 para Ponta - 3 para Cheia
+        scan_interval: 10
+        slave: 1
+        address: 11
+        input_type: input
+        count: 1
+        data_type: custom
+        structure: ">Bx"
+
+      - name: "EDP Box - Total Vazio" 
+        scan_interval: 30
+        slave: 1
+        address: 38
+        input_type: input
+        count: 1
+        data_type: uint32
+        precision: 3
+        scale: 0.001
+        unit_of_measurement: kWh
+        device_class: 'energy'
+
+      - name: "EDP Box - Total Ponta" 
+        scan_interval: 10
+        slave: 1
+        address: 39
+        input_type: input
+        count: 1
+        data_type: uint32
+        precision: 3
+        scale: 0.001
+        unit_of_measurement: kWh
+        device_class: 'energy'
+
+      - name: "EDP Box - Total Cheia" 
+        scan_interval: 10
+        slave: 1
+        address: 40
+        input_type: input
+        count: 1
+        data_type: uint32
+        precision: 3
+        scale: 0.001
+        unit_of_measurement: kWh
+        device_class: 'energy'
+
+sensor:
+## EDP BOX Tarifa - MODBUS
+  - platform: template
+    sensors:
+      edp_box_tarifa:
+        friendly_name: 'EDP Box - Tarifa'
+        icon_template: "{{ 'mdi:counter' }}"
+        value_template: >-
+          {% set x = states('sensor.tariff_l1')|string %}
+          {% if x == "1" %}
+            {{ "Vazio" }}
+          {% elif x == "2" %}
+            {{ "Ponta" }}
+          {% elif x == "3" %}
+            {{ "Cheia" }}
+          {% else %}
+            {{ x }}
+          {% endif %}
+
+## EDP BOX Estado ICP - MODBUS
+  - platform: template
+    sensors:
+      edp_box_estado_icp:
+        friendly_name: 'EDP Box - Estado ICP'
+        icon_template: "{{ 'mdi:flash' }}"
+        value_template: >-
+          {% set x = states('sensor.icp_state_l1')|string %}
+          {% if x == "0" %}
+            {{ "Desligado" }}
+          {% elif x == "1" %}
+            {{ "Ligado" }}
+          {% elif x == "2" %}
+            {{ "Preparado para religação" }}
+          {% else %}
+            {{ x }}
+          {% endif %}
+
