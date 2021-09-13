@@ -41,7 +41,7 @@ São propostas duas alternativas distintas possíveis para integração:
 * Contador inteligente com porta HAN ativada, suportando o protocolo de tramas MODBUS.
 * Acesso exterior à porta HAN, previamente instalado pela E-Redes S.A.;
 * Raspberry Pi 3 B+ ou superior (alternativamente, Home Assistant Core em outra máquina física ou virtualizada);
-* Home Assistant Core instalado (versão inicial de prova de conceito: 0.106.6. Recomendada a versão 0.109.7 ou superior);
+* Home Assistant Core instalado (versão inicial de prova de conceito: 0.106.6. **Recomendada a versão 2021.9.6 ou superior**);
 * Mosquitto MQTT Broker instalado (versão 5.0 ou superior, como add-on oficial em Home Assistant Core. Ou qualquer outro broker MQTT à sua escolha);
 * Acessórios de ligação variados.
 
@@ -78,16 +78,16 @@ Todas as marcas registadas, nomes de produtos ou de marcas, referidas neste docu
 * 10 de Outubro de 2020: atualização para contadores trifásicos (@nikito7) e Tasmota 8.5.1.
 * 11 de Abril de 2021: suporte para contadores ZIV.
 * 20 de Maio de 2021: todos os contadores existentes funcionam.
+* 13 de Setembro de 2021: atualização do método directo, conforme a revisão à integração `modbus`.
 
 # A fazeres
 
-Método direto:
+Método direto (atualizado em 13/09/2021):
 
-* [X] Potência ativa *
-* [X] Totalizadores de energia *
+* [X] Potência ativa
+* [X] Estado do DCP
+* [X] Totalizadores de energia
 * [ ] Religação do DCP
-
-``` * usar custom component @nikito7 ```
 
 Método indireto (atualizado em 05/07/2020):
 
