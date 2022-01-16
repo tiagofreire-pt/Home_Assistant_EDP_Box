@@ -1,63 +1,79 @@
 sensor:
   - platform: mqtt
     name: "Contador - Tensão"
-    state_topic: "tele/contador/SENSOR"
+    state_topic: "tele/edp_box/SENSOR"
     value_template: '{{ value_json.EB.Voltage_P1|float }}'
     unit_of_measurement: "V"
     icon: mdi:flash
+    device_class: voltage
+    state_class: measurement
 
   - platform: mqtt
     name: "Contador - Corrente"
-    state_topic: "tele/contador/SENSOR"
+    state_topic: "tele/edp_box/SENSOR"
     value_template: '{{ value_json.EB.Current_P1|float }}'
     unit_of_measurement: "A"
     icon: mdi:power-socket
+    device_class: current
+    state_class: measurement
 
   - platform: mqtt
     name: "Contador - Fator de Potência"
-    state_topic: "tele/contador/SENSOR"
+    state_topic: "tele/edp_box/SENSOR"
     value_template: '{{ value_json.EB.PFactor_P1|float }}'
     unit_of_measurement: "p.u."
     icon: mdi:percent
+    device_class: power_factor
+    state_class: measurement
     
   - platform: mqtt
     name: "Contador - Frequência"
-    state_topic: "tele/contador/SENSOR"
+    state_topic: "tele/edp_box/SENSOR"
     value_template: '{{ value_json.EB.Frequency_P1|float }}'
     unit_of_measurement: "Hz"
     icon: mdi:current-ac
+    device_class: frequency
+    state_class: measurement
     
   - platform: mqtt
     name: "Contador - Potência Ativa"
-    state_topic: "tele/contador/SENSOR"
+    state_topic: "tele/edp_box/SENSOR"
     value_template: '{{ value_json.EB.Power_P1|float }}'
     unit_of_measurement: "W"
     icon: mdi:power-plug
+    device_class: power
+    state_class: measurement
     
   - platform: mqtt
     name: "Contador - Total Vazio"
-    state_topic: "tele/contador/SENSOR"
+    state_topic: "tele/edp_box/SENSOR"
     value_template: '{{ value_json.EB.Energy_P1_R1|float }}'
     unit_of_measurement: "kWh"
     icon: mdi:transmission-tower
+    device_class: energy
+    state_class: total_increasing
     
   - platform: mqtt
     name: "Contador - Total Ponta"
-    state_topic: "tele/contador/SENSOR"
+    state_topic: "tele/edp_box/SENSOR"
     value_template: '{{ value_json.EB.Energy_P1_R2|float }}'
     unit_of_measurement: "kWh"
     icon: mdi:transmission-tower
+    device_class: energy
+    state_class: total_increasing
     
   - platform: mqtt
     name: "Contador - Total Cheia"
-    state_topic: "tele/contador/SENSOR"
+    state_topic: "tele/edp_box/SENSOR"
     value_template: '{{ value_json.EB.Energy_P1_R3|float }}'
     unit_of_measurement: "kWh"
     icon: mdi:transmission-tower
+    device_class: energy
+    state_class: total_increasing
     
   - platform: mqtt
     name: "Contador - Tarifa"
-    state_topic: "tele/contador/SENSOR"
+    state_topic: "tele/edp_box/SENSOR"
     value_template: >-
       {% if value_json.EB.Tariff_P1|int == 1 %}
         {{ 'Vazio' }}
@@ -72,7 +88,7 @@ sensor:
     
   - platform: mqtt
     name: "Contador - Estado DCP"
-    state_topic: "tele/contador/SENSOR"
+    state_topic: "tele/edp_box/SENSOR"
     value_template: >-
       {% if value_json.EB.DCP_P1|int == 0 %}
         {{ 'Desligado' }}
@@ -84,3 +100,4 @@ sensor:
         {{ value_json.EB.DCP_P1|string }}
       {% endif %}
     icon: 'mdi:cog-refresh'
+  
