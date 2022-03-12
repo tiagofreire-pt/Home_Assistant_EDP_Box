@@ -9,7 +9,7 @@ A disponibilidade de alimentação a partir da porta HAN está limitada a uma in
 
 Entre os terminais `A+` e `B-` do conversor TTL vs RS-485, *poderá* eventualmente ser instalada em paralelo uma resistência de 120 Ohm. Mais info, [aqui](../EDP%20Box#impedância-de-linha).
 
-**Deverá acautelar todos os requisitos e condições para este tipo de aplicação, segundo o documento fornecido pela `E-Redes S.A.`, vide `Módulos alimentados pela porta HAN`, [aqui](https://www.edpdistribuicao.pt/sites/edd/files/2019-06/Requisitos%20dos%20m%C3%B3dulos%20HAN_2019.05.31.pdf).**
+**Deverá acautelar todos os requisitos e condições para este tipo de aplicação, segundo o documento fornecido pela `E-Redes S.A.`, vide `Módulos alimentados pela porta HAN`, [aqui](https://www.e-redes.pt/sites/eredes/files/2021-04/Requisitos%20dos%20m%C3%B3dulos%20HAN.pdf).**
 
 # Configuração do perfil de GPIO
 
