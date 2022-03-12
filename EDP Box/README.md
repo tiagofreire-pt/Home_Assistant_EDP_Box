@@ -4,7 +4,7 @@
 
 `ATENÇÃO: Não se conhece qualquer obrigação legal ou regulatória do Operador de Rede de Distribuição ter de providenciar este acesso. Portanto, considere como uma eventual cortesia.`
 
-Em primeiro lugar, verifique se o seu contador de energia elétrica consta da seguinte lista de equipamentos com porta HAN: [Novos Equipamentos](https://www.edpdistribuicao.pt/sites/edd/files/2019-04/Novos_Equipamentos.pdf)
+Em primeiro lugar, verifique se o seu contador de energia elétrica consta da seguinte lista de equipamentos com porta HAN: [Novos Equipamentos](https://www.e-redes.pt/sites/eredes/files/2019-04/Novos_Equipamentos.pdf)
 
 ### Caso o seu modelo `NÃO` corresponda exatamente a algum dos supracitados:
 
