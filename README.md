@@ -84,7 +84,7 @@ Todas as marcas registadas, nomes de produtos ou de marcas, referidas neste docu
 
 Método direto (atualizado em 28/03/2022):
 
-* [X] Potência ativa
+* [X] Potência ativa **
 * [X] Estado do DCP
 * [X] Totalizadores de energia **
 * [ ] Religação do DCP
