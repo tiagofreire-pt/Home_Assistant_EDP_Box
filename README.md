@@ -82,12 +82,15 @@ Todas as marcas registadas, nomes de produtos ou de marcas, referidas neste docu
 
 # A fazeres
 
-Método direto (atualizado em 13/09/2021):
+Método direto (atualizado em 28/03/2022):
 
-* [X] Potência ativa
+* [X] Potência ativa **
 * [X] Estado do DCP
-* [X] Totalizadores de energia
+* [X] Totalizadores de energia **
 * [ ] Religação do DCP
+
+> ** Apenas Modbus TCP, usando o Elfin, por exemplo.
+> Não haverá suporte no RTU/Serial tão cedo.
 
 Método indireto (atualizado em 05/07/2020):
 
