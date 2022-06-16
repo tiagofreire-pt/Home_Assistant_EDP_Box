@@ -16,15 +16,14 @@ tper=60
 
 >S
 
-if upsecs>20
-and upsecs<30
+if upsecs==55
 then
 smlj=1
 endif
 
 >M 1
 
-+1,14,m,1,9600,EB,5,50,0104006C,01040079,0104007A,0104007F,01040026,01040027,01040028,0104000B,01040084
++1,14,m,1,9600,EB,5,50,0104006C,01040079,0104007A,0104007F,r010400260003,0104000B,01040084
 
 1,=hVALORES TÉCNICOS
 1,010404UUuuxxxx@i0:10,Tensão,V,Voltage_P1,17
@@ -34,13 +33,13 @@ endif
 1,01040aUUuuxxxx@i3:10,Frequência,Hz,Frequency_P1,17
 1,=h&#8205;
 1,=hTOTALIZADORES DE ENERGIA
-1,010408UUuuUUuuxxxxxxxxxxxx@i4:1000,Vazio (1),kWh,Energy_P1_R1,17
-1,010408UUuuUUuuxxxxxxxxxxxx@i5:1000,Ponta (2),kWh,Energy_P1_R2,17
-1,010408UUuuUUuuxxxxxxxxxxxx@i6:1000,Cheia (3),kWh,Energy_P1_R3,17
+1,01040CUUuuUUuu@i4:1000,Vazio (1),kWh,Energy_P1_R1,17
+1,01040CxxxxxxxxUUuuUUuu@i4:1000,Ponta (2),kWh,Energy_P1_R2,17
+1,01040CxxxxxxxxxxxxxxxxUUuuUUuu@i4:1000,Cheia (3),kWh,Energy_P1_R3,17
 1,=h&#8205;
 1,=hESTADOS
-1,010406uuxxxxxxxx@i7:1,Tarifa,,Tariff_P1,16
-1,010406uuxxxxxxxx@i8:1,DCP,,DCP_P1,16
+1,010406uuxxxxxxxx@i5:1,Tarifa,,Tariff_P1,16
+1,010406uuxxxxxxxx@i6:1,DCP,,DCP_P1,16
 
 
 #
@@ -75,7 +74,7 @@ Após submeter, deverá desligar e religar a alimentação do Wemos D1 mini. Pos
 
 Script para contador trifásico:
 
-Contributo de [nikito7](https://github.com/nikito7), com mais info aprofundada para contadores trifásicos e com venda de energia à rede, no seu [repositório](https://github.com/nikito7/HA_EDP_Box_Trifasico)
+Contributo de [nikito7](https://github.com/nikito7), com mais info aprofundada para contadores trifásicos e com venda de energia à rede, no seu [repositório](https://github.com/nikito7/edpbox)
 
 ```js
 >D
@@ -89,30 +88,29 @@ tper=60
 
 >S
 
-if upsecs>20
-and upsecs<30
+if upsecs==55
 then
 smlj=1
 endif
 
 >M 1
 
-+1,14,m,1,9600,EB,5,50,0104006C,01040079,0104007A,0104007F,01040026,01040027,01040028,0104006E,01040070
++1,14,m,1,9600,EB,5,50,0104006C,01040079,0104007A,0104007F,r010400260003,0104006E,01040070,0104000B,01040084
 1,=hVALORES TÉCNICOS
 1,010404UUuuxxxx@i0:10,Tensão L1,V,Voltage_L1,17
-1,010404UUuuxxxx@i7:10,Tensão L2,V,Voltage_L2,17
-1,010404UUuuxxxx@i8:10,Tensão L3,V,Voltage_L3,17
+1,010404UUuuxxxx@i5:10,Tensão L2,V,Voltage_L2,17
+1,010404UUuuxxxx@i6:10,Tensão L3,V,Voltage_L3,17
 1,010404xxxxUUuu@i0:10,Corrente L1,A,Current_L1,17
-1,010404xxxxUUuu@i7:10,Corrente L2,A,Current_L2,17
-1,010404xxxxUUuu@i8:10,Corrente L3,A,Current_L3,17
+1,010404xxxxUUuu@i5:10,Corrente L2,A,Current_L2,17
+1,010404xxxxUUuu@i6:10,Corrente L3,A,Current_L3,17
 1,010408UUuuUUuuxxxxxxxxxxxx@i1:1,Potência Activa,W,Power_P1,16
 1,010406xxxxxxxxUUuu@i2:1000,Factor de Potência,pu,PFactor_P1,19
 1,01040aUUuuxxxx@i3:10,Frequência,Hz,Frequency_P1,17
 1,=h&#8205;
 1,=hTOTALIZADORES DE ENERGIA
-1,010408UUuuUUuuxxxxxxxxxxxx@i4:1000,Vazio (1),kWh,Energy_P1_R1,17
-1,010408UUuuUUuuxxxxxxxxxxxx@i5:1000,Ponta (2),kWh,Energy_P1_R2,17
-1,010408UUuuUUuuxxxxxxxxxxxx@i6:1000,Cheia (3),kWh,Energy_P1_R3,17
+1,01040CUUuuUUuu@i4:1000,Vazio (1),kWh,Energy_P1_R1,17
+1,01040CxxxxxxxxUUuuUUuu@i4:1000,Ponta (2),kWh,Energy_P1_R2,17
+1,01040CxxxxxxxxxxxxxxxxUUuuUUuu@i4:1000,Cheia (3),kWh,Energy_P1_R3,17
 1,=h&#8205;
 1,=hESTADOS
 1,010406uuxxxxxxxx@i7:1,Tarifa,,Tariff_P1,16
